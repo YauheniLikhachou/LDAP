@@ -15,7 +15,6 @@
 ![](sources/Screenshot-6.png)
 ![](sources/Screenshot-7.png)
 ![](sources/Screenshot-8.png)
-![](sources/Screenshot-10.png)
 ![](sources/Screenshot-11.png)
 #
 ####On LDAP-client:
