@@ -1,4 +1,4 @@
-# LDAP task_1
+# LDAP task_2
 
 ## Configs:
 ##### => [Vagrantfile](Vagrantfile_client)
