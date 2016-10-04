@@ -1,0 +1,816 @@
+# delete 1475490076 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37676 conn=1002
+dn: cn=test55 testout,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475490076
+
+# add 1475490756 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37690 conn=1009
+dn: cn=user20 test,ou=Groups,dc=mnt,dc=lab
+changetype: add
+givenName: user20
+sn: test
+cn: user20 test
+uid: utest
+uidNumber: 1002
+gidNumber: 10500
+homeDirectory: /home/users/utest
+loginShell: /bin/sh
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+structuralObjectClass: inetOrgPerson
+entryUUID: 7218a162-1da0-1036-97fb-03e665549bac
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003103236Z
+entryCSN: 20161003103236.356503Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003103236Z
+# end add 1475490756
+
+# add 1475491827 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37712 conn=1020
+dn: cn=group1 group1,ou=Groups,dc=mnt,dc=lab
+changetype: add
+givenName: group1
+sn: group1
+cn: group1 group1
+uid: ggroup1
+userPassword:: MTIzNDU=
+uidNumber: 1003
+gidNumber: 10500
+homeDirectory: /home/users/ggroup1
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+structuralObjectClass: inetOrgPerson
+entryUUID: f095c41e-1da2-1036-97fc-03e665549bac
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003105027Z
+entryCSN: 20161003105027.562972Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003105027Z
+# end add 1475491827
+
+# delete 1475492139 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37748 conn=1038
+dn: cn=user20 test,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475492139
+
+# delete 1475492145 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37758 conn=1043
+dn: cn=testuser 12345,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475492145
+
+# add 1475492199 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37776 conn=1052
+dn: cn=Zabbix Zabbix,ou=Groups,dc=mnt,dc=lab
+changetype: add
+givenName: Zabbix
+sn: Zabbix
+cn: Zabbix Zabbix
+uid: zzabbix
+userPassword:: MTIzNDU=
+uidNumber: 1001
+gidNumber: 10500
+homeDirectory: /home/users/zzabbix
+loginShell: /bin/sh
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+structuralObjectClass: inetOrgPerson
+entryUUID: ce03fc80-1da3-1036-97fd-03e665549bac
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003105639Z
+entryCSN: 20161003105639.061787Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003105639Z
+# end add 1475492199
+
+# delete 1475492713 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37816 conn=1072
+dn: cn=group1 group1,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475492713
+
+# add 1475494881 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42000 conn=1002
+dn: ou=policies,dc=mnt,dc=lab
+changetype: add
+ou: policies
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 0d1c76ee-1daa-1036-9bee-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003114121Z
+entryCSN: 20161003114121.899036Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003114121Z
+# end add 1475494881
+
+# add 1475494881 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42000 conn=1002
+dn: cn=default,ou=policies,dc=mnt,dc=lab
+changetype: add
+objectClass: top
+objectClass: pwdPolicy
+objectClass: person
+cn: default
+sn: dummy value
+pwdAttribute: userPassword
+pwdMaxAge: 7516800
+pwdExpireWarning: 14482463
+pwdMinLength: 5
+pwdMaxFailure: 10
+pwdLockout: TRUE
+pwdLockoutDuration: 60
+pwdMustChange: FALSE
+pwdAllowUserChange: TRUE
+pwdSafeModify: FALSE
+structuralObjectClass: person
+entryUUID: 0d1ce598-1daa-1036-9bef-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003114121Z
+entryCSN: 20161003114121.901876Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003114121Z
+# end add 1475494881
+
+# delete 1475495929 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37862 conn=1013
+dn: cn=Yauheni Likhachou,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475495929
+
+# add 1475495956 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42028 conn=1016
+dn: cn=likhachou,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: likhachou
+gidNumber: 10500
+objectClass: posixGroup
+objectClass: top
+memberUid: likhachou
+structuralObjectClass: posixGroup
+entryUUID: 8dea7db4-1dac-1036-9bf0-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003115916Z
+entryCSN: 20161003115916.991080Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003115916Z
+# end add 1475495956
+
+# add 1475495956 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42028 conn=1016
+dn: uid=likhachou,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: likhachou
+homeDirectory: /home/likhachou
+loginShell: /bin/bash
+mail: userinldap@local
+uidNumber: 10500
+gidNumber: 10500
+gecos: User In LDAP
+cn: User In LDAP
+givenName: User
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: cGFzc3dvcmQ=
+pwdChangedTime: 20161003115916Z
+structuralObjectClass: inetOrgPerson
+entryUUID: 8dead1ce-1dac-1036-9bf1-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003115916Z
+entryCSN: 20161003115916.993239Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003115916Z
+# end add 1475495956
+
+# delete 1475497200 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37896 conn=1030
+dn: cn=likhachou,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475497200
+
+# delete 1475497204 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37906 conn=1035
+dn: uid=likhachou,ou=People,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475497204
+
+# delete 1475497214 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37916 conn=1040
+dn: cn=Zabbix Zabbix,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475497214
+
+# add 1475497283 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42084 conn=1044
+dn: cn=likhachou,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: likhachou
+gidNumber: 10500
+objectClass: posixGroup
+objectClass: top
+memberUid: likhachou
+structuralObjectClass: posixGroup
+entryUUID: a490a734-1daf-1036-9bf2-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003122123Z
+entryCSN: 20161003122123.480105Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003122123Z
+# end add 1475497283
+
+# add 1475497283 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42084 conn=1044
+dn: uid=likhachou,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: likhachou
+homeDirectory: /home/likhachou
+loginShell: /bin/bash
+mail: userinldap@local
+uidNumber: 10500
+gidNumber: 10500
+gecos: User In LDAP
+cn: User In LDAP
+givenName: User
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: MTIzNDU2
+pwdChangedTime: 20161003122123Z
+structuralObjectClass: inetOrgPerson
+entryUUID: a491001c-1daf-1036-9bf3-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003122123Z
+entryCSN: 20161003122123.482386Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003122123Z
+# end add 1475497283
+
+# add 1475507034 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37958 conn=1064
+dn: cn=user1 user1,ou=People,dc=mnt,dc=lab
+changetype: add
+givenName: user1
+sn: user1
+cn: user1 user1
+uid: uuser1
+userPassword:: MTIzNDU=
+uidNumber: 1000
+gidNumber: 10500
+homeDirectory: /home/users/uuser1
+loginShell: /bin/sh
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+pwdChangedTime: 20161003150354Z
+structuralObjectClass: inetOrgPerson
+entryUUID: 58681c22-1dc6-1036-9bf4-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003150354Z
+entryCSN: 20161003150354.132344Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003150354Z
+# end add 1475507034
+
+# modify 1475507058 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:37970 conn=1070
+dn: cn=user1 user1,ou=People,dc=mnt,dc=lab
+changetype: modify
+replace: cn
+cn: user1 user1
+cn: user1
+-
+replace: entryCSN
+entryCSN: 20161003150418.657307Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003150418Z
+-
+# end modify 1475507058
+
+# add 1475507703 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42144 conn=1077
+dn: cn=likh,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: likh
+gidNumber: 10500
+objectClass: posixGroup
+objectClass: top
+memberUid: likhachou
+structuralObjectClass: posixGroup
+entryUUID: e7160500-1dc7-1036-9bf5-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003151503Z
+entryCSN: 20161003151503.005275Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003151503Z
+# end add 1475507703
+
+# add 1475507703 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42144 conn=1077
+dn: uid=likh,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: likh
+homeDirectory: /home/likh
+loginShell: /bin/bash
+mail: userinldap@local
+uidNumber: 10500
+gidNumber: 10500
+gecos: User In LDAP
+cn: User In LDAP
+givenName: User
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: MTIzNDU2Nw==
+pwdChangedTime: 20161003151503Z
+structuralObjectClass: inetOrgPerson
+entryUUID: e71668e2-1dc7-1036-9bf6-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003151503Z
+entryCSN: 20161003151503.007830Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003151503Z
+# end add 1475507703
+
+# add 1475507880 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42164 conn=1087
+dn: cn=Linux,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: Linux
+member: uid=likh,ou=People,dc=mnt,dc=lab
+objectClass: groupOfNames
+objectClass: top
+structuralObjectClass: groupOfNames
+entryUUID: 511a9632-1dc8-1036-9bf7-7b46ada347d0
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003151800Z
+entryCSN: 20161003151800.873690Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003151800Z
+# end add 1475507880
+
+# modify 1475510420 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:38064 conn=1027
+dn: cn=likh,ou=Groups,dc=mnt,dc=lab
+changetype: modify
+replace: gidNumber
+gidNumber: 10510
+-
+replace: entryCSN
+entryCSN: 20161003160020.671551Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003160020Z
+-
+# end modify 1475510420
+
+# modify 1475510448 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:38074 conn=1032
+dn: uid=likh,ou=People,dc=mnt,dc=lab
+changetype: modify
+replace: gidNumber
+gidNumber: 10510
+-
+replace: entryCSN
+entryCSN: 20161003160048.255492Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003160048Z
+-
+# end modify 1475510448
+
+# modify 1475511363 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=192.168.30.65:45320 conn=1043
+dn: uid=likh,ou=People,dc=mnt,dc=lab
+changetype: modify
+add: pwdFailureTime
+pwdFailureTime: 20161003161603.375339Z
+-
+replace: entryCSN
+entryCSN: 20161003161603.375359Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003161603Z
+-
+# end modify 1475511363
+
+# modify 1475511410 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=192.168.30.65:45322 conn=1044
+dn: uid=userinldap,ou=People,dc=mnt,dc=lab
+changetype: modify
+add: pwdFailureTime
+pwdFailureTime: 20161003161650.791617Z
+-
+replace: entryCSN
+entryCSN: 20161003161650.791634Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003161650Z
+-
+# end modify 1475511410
+
+# modify 1475511416 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=192.168.30.65:45322 conn=1044
+dn: uid=userinldap,ou=People,dc=mnt,dc=lab
+changetype: modify
+add: pwdFailureTime
+pwdFailureTime: 20161003161656.869545Z
+-
+replace: entryCSN
+entryCSN: 20161003161656.869562Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003161656Z
+-
+# end modify 1475511416
+
+# modify 1475511421 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=192.168.30.65:45322 conn=1044
+dn: uid=userinldap,ou=People,dc=mnt,dc=lab
+changetype: modify
+add: pwdFailureTime
+pwdFailureTime: 20161003161701.221764Z
+-
+replace: entryCSN
+entryCSN: 20161003161701.221782Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003161701Z
+-
+# end modify 1475511421
+
+# add 1475512169 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42244 conn=1050
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: user1
+gidNumber: 11019
+objectClass: posixGroup
+objectClass: top
+memberUid: user1
+structuralObjectClass: posixGroup
+entryUUID: 4d26f458-1dd2-1036-98b0-3fa0567d0229
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003162929Z
+entryCSN: 20161003162929.211158Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003162929Z
+# end add 1475512169
+
+# add 1475512169 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:42244 conn=1050
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: user1
+homeDirectory: /home/user1
+loginShell: /bin/bash
+mail: user1@local
+uidNumber: 11019
+gidNumber: 11019
+gecos: user with access
+cn: User in LDAP
+givenName: FirstUser
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: cGFzc3dvcmQx
+pwdChangedTime: 20161003162929Z
+structuralObjectClass: inetOrgPerson
+entryUUID: 4d274138-1dd2-1036-98b1-3fa0567d0229
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003162929Z
+entryCSN: 20161003162929.213128Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003162929Z
+# end add 1475512169
+
+# delete 1475524086 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:56914 conn=1009
+dn: cn=user1 user1,ou=People,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475524086
+
+# delete 1475524102 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:56924 conn=1014
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475524102
+
+# delete 1475524108 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:56934 conn=1019
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475524108
+
+# add 1475524116 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:50964 conn=1023
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: user1
+gidNumber: 11019
+objectClass: posixGroup
+objectClass: top
+memberUid: user1
+structuralObjectClass: posixGroup
+entryUUID: 1e642264-1dee-1036-8ff1-118defaad9de
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003194836Z
+entryCSN: 20161003194836.667615Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003194836Z
+# end add 1475524116
+
+# add 1475524116 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:50964 conn=1023
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: user1
+homeDirectory: /home/user1
+loginShell: /bin/bash
+mail: user1@local
+uidNumber: 11019
+gidNumber: 11019
+gecos: user with access
+cn: User in LDAP
+givenName: FirstUser
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: cGFzc3dvcmQx
+pwdChangedTime: 20161003194836Z
+structuralObjectClass: inetOrgPerson
+entryUUID: 1e648862-1dee-1036-8ff2-118defaad9de
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003194836Z
+entryCSN: 20161003194836.670230Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003194836Z
+# end add 1475524116
+
+# modify 1475524310 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=192.168.30.65:55770 conn=1029
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: modify
+add: pwdFailureTime
+pwdFailureTime: 20161003195150.291166Z
+-
+replace: entryCSN
+entryCSN: 20161003195150.291190Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161003195150Z
+-
+# end modify 1475524310
+
+# add 1475524586 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:50970 conn=1032
+dn: cn=Linux,ou=Services,dc=mnt,dc=lab
+changetype: add
+cn: Linux
+member: uid=user1,ou=People,dc=mnt,dc=lab
+objectClass: groupOfNames
+objectClass: top
+structuralObjectClass: groupOfNames
+entryUUID: 364e9174-1def-1036-8ff3-118defaad9de
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161003195626Z
+entryCSN: 20161003195626.288328Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161003195626Z
+# end add 1475524586
+
+# delete 1475562510 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:42074 conn=1008
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475562510
+
+# delete 1475562515 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:42084 conn=1013
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475562515
+
+# delete 1475562520 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:42094 conn=1018
+dn: cn=Linux,ou=Services,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475562520
+
+# add 1475562728 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:43984 conn=1000
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: user1
+gidNumber: 11019
+objectClass: posixGroup
+objectClass: top
+memberUid: user1
+structuralObjectClass: posixGroup
+entryUUID: 04f65586-1e48-1036-8041-6b1d7db363d2
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004063208Z
+entryCSN: 20161004063208.710648Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004063208Z
+# end add 1475562728
+
+# add 1475562728 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:43984 conn=1000
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: user1
+homeDirectory: /home/user1
+loginShell: /bin/bash
+mail: user1@local
+uidNumber: 11019
+gidNumber: 11019
+gecos: user with access
+cn: User in LDAP
+givenName: FirstUser
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: cGFzc3dvcmQx
+pwdChangedTime: 20161004063208Z
+structuralObjectClass: inetOrgPerson
+entryUUID: 04f6dbc8-1e48-1036-8042-6b1d7db363d2
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004063208Z
+entryCSN: 20161004063208.714093Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004063208Z
+# end add 1475562728
+
+# delete 1475562830 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:42110 conn=1005
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475562830
+
+# delete 1475562834 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:42120 conn=1010
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475562834
+
+# delete 1475562843 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=127.0.0.1:42132 conn=1016
+dn: cn=Linux,ou=Groups,dc=mnt,dc=lab
+changetype: delete
+# end delete 1475562843
+
+# add 1475562887 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:44022 conn=1000
+dn: cn=user1,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: user1
+gidNumber: 11019
+objectClass: posixGroup
+objectClass: top
+memberUid: user1
+structuralObjectClass: posixGroup
+entryUUID: 63556edc-1e48-1036-9d66-0d3a662ea7a8
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004063447Z
+entryCSN: 20161004063447.039719Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004063447Z
+# end add 1475562887
+
+# add 1475562887 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:44022 conn=1000
+dn: uid=user1,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: user1
+homeDirectory: /home/user1
+loginShell: /bin/bash
+mail: user1@local
+uidNumber: 11019
+gidNumber: 11019
+gecos: user with access
+cn: User in LDAP
+givenName: FirstUser
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: cGFzc3dvcmQx
+pwdChangedTime: 20161004063447Z
+structuralObjectClass: inetOrgPerson
+entryUUID: 6355f4d8-1e48-1036-9d67-0d3a662ea7a8
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004063447Z
+entryCSN: 20161004063447.043143Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004063447Z
+# end add 1475562887
+
+# add 1475562887 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:44022 conn=1000
+dn: cn=Linux,ou=Services,dc=mnt,dc=lab
+changetype: add
+cn: Linux
+member: uid=user1,ou=People,dc=mnt,dc=lab
+objectClass: groupOfNames
+objectClass: top
+structuralObjectClass: groupOfNames
+entryUUID: 63569398-1e48-1036-9d68-0d3a662ea7a8
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004063447Z
+entryCSN: 20161004063447.047219Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004063447Z
+# end add 1475562887
+
+# add 1475563372 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:44040 conn=1014
+dn: cn=user2,ou=Groups,dc=mnt,dc=lab
+changetype: add
+cn: user2
+gidNumber: 11020
+objectClass: posixGroup
+objectClass: top
+memberUid: user2
+structuralObjectClass: posixGroup
+entryUUID: 847576c4-1e49-1036-9d69-0d3a662ea7a8
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004064252Z
+entryCSN: 20161004064252.111184Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004064252Z
+# end add 1475563372
+
+# add 1475563372 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:44040 conn=1014
+dn: uid=user2,ou=People,dc=mnt,dc=lab
+changetype: add
+uid: user2
+homeDirectory: /home/user2
+loginShell: /bin/bash
+mail: user1@local
+uidNumber: 11020
+gidNumber: 11020
+gecos: user with access
+cn: User in LDAP
+givenName: FirstUser
+sn: InLDAP
+objectClass: top
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+userPassword:: cGFzc3dvcmQx
+pwdChangedTime: 20161004064252Z
+structuralObjectClass: inetOrgPerson
+entryUUID: 8475d59c-1e49-1036-9d6a-0d3a662ea7a8
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004064252Z
+entryCSN: 20161004064252.113619Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004064252Z
+# end add 1475563372
+
+# add 1475563372 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=[::1]:44040 conn=1014
+dn: cn=Zabbix,ou=Services,dc=mnt,dc=lab
+changetype: add
+cn: Zabbix
+member: uid=user2,ou=People,dc=mnt,dc=lab
+objectClass: groupOfNames
+objectClass: top
+structuralObjectClass: groupOfNames
+entryUUID: 8476175a-1e49-1036-9d6b-0d3a662ea7a8
+creatorsName: cn=admin,dc=mnt,dc=lab
+createTimestamp: 20161004064252Z
+entryCSN: 20161004064252.115301Z#000000#000#000000
+modifiersName: cn=admin,dc=mnt,dc=lab
+modifyTimestamp: 20161004064252Z
+# end add 1475563372
+
+# modify 1475563419 dc=mnt,dc=lab cn=admin,dc=mnt,dc=lab IP=192.168.30.65:55782 conn=1021
+dn: uid=user2,ou=People,dc=mnt,dc=lab
+changetype: modify
+add: pwdFailureTime
+pwdFailureTime: 20161004064339.571856Z
+-
+replace: entryCSN
+entryCSN: 20161004064339.571894Z#000000#000#000000
+-
+replace: modifiersName
+modifiersName: cn=admin,dc=mnt,dc=lab
+-
+replace: modifyTimestamp
+modifyTimestamp: 20161004064339Z
+-
+# end modify 1475563419
+

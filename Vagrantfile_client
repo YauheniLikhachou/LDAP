@@ -1,0 +1,17 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+#------------------------LDAP-Client-----------------------------------
+        config.vm.define "ldapclient", primary: true do |ldapclient|
+                ldapclient.vm.box = "centos/6"
+                ldapclient.vm.network "private_network", ip: "192.168.30.65"
+                ldapclient.vm.hostname = "LDAPclient"
+                ldapclient.vm.provider "virtualbox" do |vm1|
+                        vm1.cpus = 1
+                        vm1.memory = "2048"
+                end
+        config.vm.provision "shell", inline: "echo The LDAP-Client is DONE!"
+        end
+end
+
