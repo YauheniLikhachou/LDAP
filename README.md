@@ -15,4 +15,6 @@
 ![](sources/Screenshot-6.png)
 ![](sources/Screenshot-7.png)
 ![](sources/Screenshot-8.png)
+#
+####On LDAP-client:
 ![](sources/Screenshot-9.png)
