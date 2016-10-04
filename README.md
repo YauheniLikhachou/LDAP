@@ -2,8 +2,8 @@
 
 ## Configs:
 ##### => [Vagrantfile](Vagrantfile_client)
-
-
+##### => [Logs of audit](audit.log)
+ 	
 ##
 
 ## Screenshots:
